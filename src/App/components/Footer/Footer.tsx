@@ -5,7 +5,9 @@ import gitHubLogo from "./assets/Github.png";
 import facebookLogo from "./assets/Facebook.png";
 import slackLogo from "./assets/Slack.png";
 
-const Footer = () => {
+interface IFooterProps {}
+
+const Footer: React.FunctionComponent<IFooterProps> = () => {
 	return(
 		<footer className="bg-black">
 			<div className="footer">
