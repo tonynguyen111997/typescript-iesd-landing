@@ -3,7 +3,9 @@ import React from "react";
 //images
 import headerLine from "./assets/header-line-black.svg";
 
-const Events = () => {
+interface IEventsStatelessProps {}
+
+const Events: React.FunctionComponent<IEventsStatelessProps> = () => {
 	return (
     <div className="container pb-5" id="events-div">
         <div className="row">
