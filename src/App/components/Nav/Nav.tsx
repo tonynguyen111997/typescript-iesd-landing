@@ -2,7 +2,10 @@ import React from "react";
 
 import logo from "./assets/iesd-text-white-nobg.svg";
 
-const Nav = () => {
+//populate if props exist
+interface INavStatelessProps {}
+
+const Nav: React.FunctionComponent<INavStatelessProps> = () => {
 	return (
 		<div id="nav" className="container-fluid bg-black">
 			<div className="container">
