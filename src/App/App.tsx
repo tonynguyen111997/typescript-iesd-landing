@@ -11,10 +11,12 @@ import AboutUs from "./components/Sections/AboutUs/AboutUs";
 import Mission from "./components/Sections/Mission/Mission";
 import Events from "./components/Sections/Events/Events";
 
-//sections
+interface IAppProps{} //Doesn't have props so it's empty
 
-class App extends Component{
-	componentDidMount(){
+interface IAppState{} //Doesn't have state so it's empty
+
+class App extends Component<IAppProps, IAppState>{
+	componentDidMount(): void {
 		WebFont.load({
 			google: {
 				families: ["Lato", "Open Sans"]
@@ -22,7 +24,7 @@ class App extends Component{
 		});
 	}
 
-	render(){
+	render(): JSX.Element {
 		return(
 			<div className="App">
 				<Nav />
