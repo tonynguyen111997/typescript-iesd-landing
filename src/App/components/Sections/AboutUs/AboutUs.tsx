@@ -4,7 +4,9 @@ import React from "react";
 import headerLine from "./assets/header-line-white.svg";
 import exciteBuildingImg from "./assets/building.jpg";
 
-const AboutUs = () => {
+interface IAboutUsStatelessProps {}
+
+const AboutUs: React.FunctionComponent<IAboutUsStatelessProps> = () => {
 	return (
 		<div id="aboutus-div" className="container-fluid bg-dark">
 			<div className="container">
