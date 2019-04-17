@@ -4,7 +4,9 @@ import React from "react";
 import headerLine from "./assets/header-line-white.svg";
 import missionImg from "./assets/mission.jpg";
 
-const Mission = () => {
+interface IMissionStatelessProps {}
+
+const Mission: React.FunctionComponent<IMissionStatelessProps> = () => {
 	return (
 		<div id="mission-div" className="container-fluid bg-darker">
 			<div className="container">
