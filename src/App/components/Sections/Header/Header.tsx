@@ -1,6 +1,8 @@
 import React from "react";
 
-const Header = () => {
+interface IHeaderStatelessProps {}
+
+const Header: React.FunctionComponent<IHeaderStatelessProps> = () => {
 	return (
 		<div id="header-div" className="container">
 			<header className="header">
